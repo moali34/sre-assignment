@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-config
+  namespace: backend
+data:
+  TOKEN_EXPIRY: "3600"
+  LOG_LEVEL: "info"

@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+  namespace: backend
+data:
+  LOG_LEVEL: "info"
+  MAX_REQUEST_SIZE: "1MB"
